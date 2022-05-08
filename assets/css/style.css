@@ -1,32 +1,65 @@
-header {
-    background-color: rgba(255, 255, 0);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px;
-    width: 100%;
-    align-self: left;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: ;
 }
 
-header nav ul {
+
+header {
+    background-color: rgb(48, 48, 36);
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+header h1 {
+    font-size: 55px;
+    margin-top: 50px;
+}
+
+
+header nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
     list-style: none;
-    box-sizing: border-box;
+    align-items: center;
 }
 
 header nav ul li {
-    padding: 10px;
+    padding: 30px;
     font-family: "Georgia", Times, sans-serif;
     text-shadow: 0, 0. 10px rgba(0, 0, 0, 0.6);
+    flex-wrap: wrap;
+    align-items: baseline;
 }
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    border-radius: 36px;
+}
+
 
 .profile {
     width: 100%;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
+
+}
+
+.image {
+    border: 1px solid rgba(255, 255, 0);
+    width: 188px;
+
+
 
 }
 
@@ -36,6 +69,7 @@ header nav ul li {
     font-style: oblique;
     color: rgba(255, 255, 0);
 }
+
 
 .projects {
     height: 644px;
