@@ -48,6 +48,38 @@ header img {
     border-radius: 36px;
 }
 
+.header-img {
+
+    width: 292px;
+    height: 234px;
+    animation: fadeinout 4s linear forwards;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeinout {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinout {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
 .intro {
     background-image: url("../images/jungle1.jpg");
     background-size: cover;
@@ -71,7 +103,9 @@ header img {
 
 .projects {
     position: relative;
-    height: 500px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 31rem;
     background-image: url("../images/bananagrid.jpg");
     text-align: center;
 }
@@ -83,7 +117,9 @@ header img {
     color: rgba(0, 0, 0, 0.6);
 }
 
-
+.runbuddy {
+    width: 20%;
+}
 
 .contact {
     height: 222px;
