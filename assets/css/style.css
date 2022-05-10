@@ -6,13 +6,14 @@
 
 
 header {
-    background-color: rgb(48, 48, 36);
+    background-color: rgba(218, 218, 17, 0.863);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
+    Gilb
 }
 
 header h1 {
