@@ -6,34 +6,34 @@
 
 
 header {
-    background-image: url("../images/bulb.jpg");
+    background-color: rgb(221, 148, 148);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     width: 100%;
     height: auto;
 }
 
 header h1 {
-    font-size: 55px;
-    margin-top: 50px;
+    font-size: 4rem;
+    margin-top: 3rem;
 }
-
 
 header nav ul {
-    flex-wrap: wrap;
-    justify-content: space-between;
     list-style: none;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-header nav ul li {
-    padding: 30px;
+
+
+header nav ul li a {
+    padding: 1.7rem;
     font-family: "Georgia", Times, sans-serif;
-    text-shadow: 0, 0. 10px rgba(0, 0, 0, 0.6);
-    flex-wrap: wrap;
-    align-items: baseline;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 0);
+    display: flex;
+    justify-content: space-around;
 }
 
 section {
