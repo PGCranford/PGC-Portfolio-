@@ -6,14 +6,13 @@
 
 
 header {
-    background-color: rgba(218, 218, 17, 0.863);
+    background-image: url("../images/bulb.jpg");
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    Gilb
 }
 
 header h1 {
@@ -90,7 +89,7 @@ header img {
 
 .intro h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 1.8rem;
     color: rgb(211, 115, 25)
 }
 
@@ -118,12 +117,47 @@ header img {
 }
 
 .runbuddy {
+    width: 30%;
+
+}
+
+.Horiseon {
     width: 20%;
 }
 
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
 .contact {
-    height: 222px;
-    background-color: rgb(15, 5, 43);
+    height: 20rem;
+    background-image: url("../images/jungle1.jpg");
+    list-style: none;
+    text-align: center;
+    opacity: .80;
+}
+
+.contact h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    align-items: center;
+    color: rgb(231, 223, 14);
+}
+
+.contact ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: rgb(231, 223, 14);
+    padding-top: 3rem;
+    font-weight: bolder;
+
 }
 
 footer {
