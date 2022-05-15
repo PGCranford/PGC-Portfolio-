@@ -82,12 +82,12 @@ header img {
 
 .intro h2 {
 
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     color: rgb(211, 115, 25)
 }
 
 .intro p {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     color: rgba(255, 255, 0);
 }
 
@@ -96,7 +96,7 @@ header img {
     position: relative;
     padding-left: 5rem;
     padding-right: 5rem;
-    height: 31rem;
+    height: 39rem;
     background-image: url("../images/bananagrid.jpg");
     text-align: center;
 }
@@ -116,6 +116,10 @@ header img {
     width: 28%;
 }
 
+.watchthisspace {
+    width: 10%;
+}
+
 .images {
     display: flex;
     flex-direction: column;
@@ -123,7 +127,7 @@ header img {
 }
 
 .projects p {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: bolder;
     text-shadow: 1.5px rgba(0, 0, 0, 0.6);
 
@@ -198,6 +202,7 @@ footer {
     }
 
     .intro p {
+        font-size: 1.5rem;
         width: 100%;
         text-align: center;
     }
@@ -249,6 +254,14 @@ footer {
         height: auto;
     }
 
+    .intro p {
+        font-size: 1.5rem;
+    }
+
+    .projects p {
+        font-size: 1.1rem;
+    }
+
 
 }
 
@@ -264,7 +277,7 @@ footer {
 
     header nav ul li a {
 
-        font-size: .5rem;
+        font-size: .7rem;
 
     }
 
@@ -272,6 +285,10 @@ footer {
     .header-img {
         width: 100%;
         height: 20vh;
+    }
+
+    .intro p {
+        font-size: 1.27rem;
     }
 
     .projects {
