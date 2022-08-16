@@ -108,7 +108,7 @@ header img {
 }
 
 .rentaride {
-    width: 30%;
+    width: 100%;
 }
 
 .runbuddy {
@@ -124,9 +124,7 @@ header img {
     width: 18%;
 }
 
-.watchthisspace {
-    width: 8%;
-}
+
 
 .images {
     display: flex;
